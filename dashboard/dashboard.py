@@ -4,8 +4,8 @@ import plotly.express as px
 
 st.title("Bike Sharing Analysis Dashboard")
 
-day_data = pd.read_csv('day_clean.csv')
-hour_data = pd.read_csv('hour_clean.csv')
+day_data = pd.read_csv('dashboard/day_clean.csv')
+hour_data = pd.read_csv('dashboard/hour_clean.csv')
 
 dataset_option = st.sidebar.selectbox("Pilih Dataset:", ("Harian", "Per Jam"))
 
